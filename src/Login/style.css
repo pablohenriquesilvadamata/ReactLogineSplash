@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.paginatotal {
+    height: 100vh  ;
+    width: 100%;
+    background-color: #053155;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rapaz_dashboard {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.quadrado_branco {
+    height: 100vh;
+    width: 50%;
+    background-color: #fcfcfc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.Logo_Integradash {
+    height: 250px ;
+    width: 250px ;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 25px;
+
+
+}
+
+
+
+.clique_aqui {
+    display: flex;
+    justify-content: right ;
+    font-size: 15px;
+   margin-top: 10px;
+   color: gray;
+   
+}
+
+.clique_aqui a {
+    margin-left: 5px;
+    color: #053155;
+    text-decoration: none;
+    font-weight: 800;
+      
+
+}
+/* 
+.alinhamento_login {
+    display: flex;
+    flex-direction: column;
+} */
+
+.alinhamento_input {
+    display: flex;
+    flex-direction: column;
+
+  
+}
+
+.negrito {
+
+    font-weight: 900;
+    font-size: 15px;
+}
+
+form {
+padding-bottom: 10px;
+
+}
+
+::placeholder {
+    color: rgb(162, 162, 162);
+    font-size: 15px;
+}
+
+.botao_entrar {
+    background-color: #1b77c2;
+    color: #e8e8e8;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+    border: none;
+
+
+           }
+
+
+.zoinho {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+
+.testefonte2{
+
+display: none;
+
+}
+
+ .botao_entrar:hover {
+    background-color: #3b6689;
+    
+ }
+
+
+.senha {
+    margin-bottom: 10px;
+    height: 35px;
+    width: 300px;
+    text-indent: 10px;
+    font-size: 15px;
+    border-color: rgba(96, 95, 95, 0.304);
+}
+
+.email {
+    margin-bottom: 30px;
+    height: 35px;
+    font-size: 15px;
+    width: 300px;
+    text-indent: 10px;
+    border-color: rgba(96, 95, 95, 0.304);
+}
+
+.desenvolvido_por {
+    height: 21px;
+    margin-top: 100px;
+    padding: 30px;
+
+
+
+}
+.Logo_Claro {
+    display: none;
+}
+
+/* .zoio {
+
+    position: relative;
+    height: 10%;
+    width: 10%;
+
+    } */
+
+    .zoio{
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        left: 265px;
+        bottom: 15px;
+      }
+    
+/* .teste1 {
+
+} */
+
+.mantenha-me {
+    padding-bottom: 30px;
+    font-size: 15px;
+    color: gray;
+    width: 300px;
+}
+
+.testezoom {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+
+
+    .quadrado_branco {
+        width:100% ;
+
+} 
+
+.pagina_metade1 { 
+    display: none;
+    
+}
+
+.quadrado_branco {
+    background-image: url(img/fundomobile\ 1.png);
+    background-size: 100vw 70%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.Logo_Integradash {
+    display: none;
+}
+
+.Logo_Claro {
+    display: flex;
+    max-width: 250px;
+    margin-top:100px;
+    margin-left: 30px;
+
+}
+
+.alinhamento_input{ 
+
+margin-top: 80px;
+
+}
+
+/* TESTE PARA ALTERAR O TEXTO CONFORME DIMINUI A TELA */
+
+.testefonte {
+display: flex; /*none*/
+}
+
+.testefonte2{
+    display: none; /*flex*/
+}
+
+}
