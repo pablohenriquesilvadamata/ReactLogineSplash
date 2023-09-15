@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* body{
+    display: flex;    
+ 
+
+} */
+
+.integradesh_logo {
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.integradashdark{
+    width: 400px;
+
+}
+
